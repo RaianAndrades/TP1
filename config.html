@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Calculadora flex</title>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, userscalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+
+		<!-- <link rel="stylesheet" href="style.css" type="text/css" /> -->
+		<link href="dist/css/ratchet.css" rel="stylesheet">
+		<script src="dist/js/ratchet.js"></script>
+	</head>
+	<body>
+		 <header class="bar bar-nav">
+		 	<h1 class="title"> Calculadora Flex </h1>
+		 	<a href="index.html" class="btn btn-link btn-nav pull-left">
+			    início
+			    <span class="icon icon-left-nav"></span>
+			  </a>
+		 </header>
+		 <div class="content" >
+			 				<div class="input-row">
+				 <label for="Gas_Cons">Consumo com Gasolina:</label>
+				 <input type="number" name="Gas_Cons" id="Gas_Cons">
+				</div>
+				<div class="input-row">
+				 <label for="Eta_Cons">Consumo com Etanol:</label>
+				 <input type="number" name="Eta_Cons" id="Eta_Cons">
+				</div>
+		 </div>
+	 	<div class="bar bar-standard bar-footer">
+	 	<button class="btn btn-primary btn-block" onclick="CalcFlex()"type="button">Gasolina ou Etanol?</button>
+	 </div>
+	</body>
+	<script src="lstorage.js"></script>
+</html>

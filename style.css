@@ -1,0 +1,23 @@
+body {
+	background: #e7e7e7;
+	font-size: 1em;
+	margin: 10px;
+	font-family: Verdana;
+}
+
+h1 {
+	font-size: 1.3em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+input {
+	width: 50px;
+}
+.form label{
+	display:block;
+	width: 200px;
+	float: left;
+}
+button{
+	margin-top: 50px;
+}
